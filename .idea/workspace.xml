@@ -11,10 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4065a6bd-feae-4d31-88ae-46b4ebfbc080" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TimesAndDates/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimesAndDates/usingTime.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,16 +49,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Go Build.go build usingTime.go">
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="mastering-go-practice" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build TimesAndDates">
     <configuration name="go build TimesAndDates" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="mastering-go-practice" />
       <working_directory value="$PROJECT_DIR$/TimesAndDates" />
@@ -80,20 +67,10 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="mastering-go-practice" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build usingTime.go" />
         <item itemvalue="Go Build.go build TimesAndDates" />
+        <item itemvalue="Go Build.go build usingTime.go" />
       </list>
     </recent_temporary>
   </component>
@@ -120,21 +97,21 @@
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state x="520" y="269" key="#Go_Modules/0.25.1440.814@0.25.1440.814" timestamp="1608608706376" />
-    <state width="1398" height="208" key="GridCell.Tab.0.bottom" timestamp="1608609078952">
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom" timestamp="1608625152794">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
-    <state width="1398" height="208" key="GridCell.Tab.0.bottom/0.25.1440.814@0.25.1440.814" timestamp="1608609078952" />
-    <state width="1398" height="208" key="GridCell.Tab.0.center" timestamp="1608609078951">
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom/0.25.1440.814@0.25.1440.814" timestamp="1608625152794" />
+    <state width="1398" height="208" key="GridCell.Tab.0.center" timestamp="1608625152793">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
-    <state width="1398" height="208" key="GridCell.Tab.0.center/0.25.1440.814@0.25.1440.814" timestamp="1608609078951" />
-    <state width="1398" height="208" key="GridCell.Tab.0.left" timestamp="1608609078950">
+    <state width="1398" height="208" key="GridCell.Tab.0.center/0.25.1440.814@0.25.1440.814" timestamp="1608625152793" />
+    <state width="1398" height="208" key="GridCell.Tab.0.left" timestamp="1608625152792">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
-    <state width="1398" height="208" key="GridCell.Tab.0.left/0.25.1440.814@0.25.1440.814" timestamp="1608609078950" />
-    <state width="1398" height="208" key="GridCell.Tab.0.right" timestamp="1608609078951">
+    <state width="1398" height="208" key="GridCell.Tab.0.left/0.25.1440.814@0.25.1440.814" timestamp="1608625152792" />
+    <state width="1398" height="208" key="GridCell.Tab.0.right" timestamp="1608625152793">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
-    <state width="1398" height="208" key="GridCell.Tab.0.right/0.25.1440.814@0.25.1440.814" timestamp="1608609078951" />
+    <state width="1398" height="208" key="GridCell.Tab.0.right/0.25.1440.814@0.25.1440.814" timestamp="1608625152793" />
   </component>
 </project>
