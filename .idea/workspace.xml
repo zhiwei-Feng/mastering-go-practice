@@ -14,20 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4065a6bd-feae-4d31-88ae-46b4ebfbc080" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter4/a.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter4/b.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter4/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter4/selectCol.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TimesAndDates/exercises/ex1.go" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/exercises/ex1.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TimesAndDates/exercises/ex2.go" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/exercises/ex2.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TimesAndDates/exercises/ex3.go" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/exercises/ex3.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TimesAndDates/exercises/ex4.go" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/exercises/ex4.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TimesAndDates/exercises/ex5.go" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/exercises/ex5.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TimesAndDates/exercises/ex6.go" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/exercises/ex6.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TimesAndDates/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TimesAndDates/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TimesAndDates/usingTime.go" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/usingTime.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter4/selectCol.go" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter4/selectCol.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,10 +56,20 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Chapter4" />
       <recent name="$PROJECT_DIR$/TimesAndDates/exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build selectCol.go">
+  <component name="RunManager" selected="Go Build.go build Chapter4">
+    <configuration name="go build Chapter4" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="mastering-go-practice" />
+      <working_directory value="$PROJECT_DIR$/Chapter4" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/Chapter4/main.go" />
+      <package value="Chapter4" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build TimesAndDates" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="mastering-go-practice" />
       <working_directory value="$PROJECT_DIR$/TimesAndDates" />
@@ -100,6 +98,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build Chapter4" />
         <item itemvalue="Go Build.go build selectCol.go" />
         <item itemvalue="Go Build.go build TimesAndDates" />
         <item itemvalue="Go Build.go build usingTime.go" />
@@ -124,7 +123,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TimesAndDates preliminary completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="TimesAndDates preliminary completed" />
+    <MESSAGE value="Chapter4: A simple example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter4: A simple example" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -158,13 +158,13 @@
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.25.1440.814@0.25.1440.814" timestamp="1608794655080" />
-    <state x="320" y="156" key="Vcs.Push.Dialog.v2" timestamp="1608797298559">
+    <state x="320" y="156" key="Vcs.Push.Dialog.v2" timestamp="1608992986251">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
-    <state x="320" y="156" key="Vcs.Push.Dialog.v2/0.25.1440.814@0.25.1440.814" timestamp="1608797298559" />
-    <state x="385" y="163" width="670" height="676" key="search.everywhere.popup" timestamp="1608992367920">
+    <state x="320" y="156" key="Vcs.Push.Dialog.v2/0.25.1440.814@0.25.1440.814" timestamp="1608992986251" />
+    <state x="385" y="163" width="670" height="676" key="search.everywhere.popup" timestamp="1608992978686">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
-    <state x="385" y="163" width="670" height="676" key="search.everywhere.popup/0.25.1440.814@0.25.1440.814" timestamp="1608992367920" />
+    <state x="385" y="163" width="670" height="676" key="search.everywhere.popup/0.25.1440.814@0.25.1440.814" timestamp="1608992978686" />
   </component>
 </project>
