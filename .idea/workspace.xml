@@ -14,13 +14,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4065a6bd-feae-4d31-88ae-46b4ebfbc080" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TimesAndDates/exercises/ex1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimesAndDates/exercises/ex2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimesAndDates/exercises/ex3.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimesAndDates/exercises/ex4.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimesAndDates/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter4/a.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter4/b.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter4/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter4/selectCol.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TimesAndDates/usingTime.go" beforeDir="false" afterPath="$PROJECT_DIR$/TimesAndDates/usingTime.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TimesAndDates/exercises/ex1.go" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/exercises/ex1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TimesAndDates/exercises/ex2.go" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/exercises/ex2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TimesAndDates/exercises/ex3.go" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/exercises/ex3.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TimesAndDates/exercises/ex4.go" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/exercises/ex4.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TimesAndDates/exercises/ex5.go" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/exercises/ex5.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TimesAndDates/exercises/ex6.go" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/exercises/ex6.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TimesAndDates/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TimesAndDates/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TimesAndDates/usingTime.go" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/usingTime.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +56,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapter4" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -59,13 +66,27 @@
     <property name="settings.editor.selected.configurable" value="go.sdk" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Go Build.go build TimesAndDates">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TimesAndDates/exercises" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build selectCol.go">
     <configuration name="go build TimesAndDates" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="mastering-go-practice" />
       <working_directory value="$PROJECT_DIR$/TimesAndDates" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/TimesAndDates/usingTime.go" />
       <package value="TimesAndDates" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build selectCol.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="mastering-go-practice" />
+      <working_directory value="$PROJECT_DIR$/Chapter4" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Chapter4/selectCol.go" />
+      <package value="mastering-go-practice" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -79,6 +100,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build selectCol.go" />
         <item itemvalue="Go Build.go build TimesAndDates" />
         <item itemvalue="Go Build.go build usingTime.go" />
       </list>
@@ -100,6 +122,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="TimesAndDates preliminary completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="TimesAndDates preliminary completed" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
@@ -108,22 +134,22 @@
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state x="520" y="269" key="#Go_Modules/0.25.1440.814@0.25.1440.814" timestamp="1608608706376" />
-    <state width="1440" height="224" key="GridCell.Tab.0.bottom" timestamp="1608796943509">
+    <state width="1440" height="224" key="GridCell.Tab.0.bottom" timestamp="1608992367976">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
-    <state width="1440" height="224" key="GridCell.Tab.0.bottom/0.25.1440.814@0.25.1440.814" timestamp="1608796943509" />
-    <state width="1440" height="224" key="GridCell.Tab.0.center" timestamp="1608796943508">
+    <state width="1440" height="224" key="GridCell.Tab.0.bottom/0.25.1440.814@0.25.1440.814" timestamp="1608992367976" />
+    <state width="1440" height="224" key="GridCell.Tab.0.center" timestamp="1608992367975">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
-    <state width="1440" height="224" key="GridCell.Tab.0.center/0.25.1440.814@0.25.1440.814" timestamp="1608796943508" />
-    <state width="1440" height="224" key="GridCell.Tab.0.left" timestamp="1608796943506">
+    <state width="1440" height="224" key="GridCell.Tab.0.center/0.25.1440.814@0.25.1440.814" timestamp="1608992367975" />
+    <state width="1440" height="224" key="GridCell.Tab.0.left" timestamp="1608992367974">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
-    <state width="1440" height="224" key="GridCell.Tab.0.left/0.25.1440.814@0.25.1440.814" timestamp="1608796943506" />
-    <state width="1440" height="224" key="GridCell.Tab.0.right" timestamp="1608796943508">
+    <state width="1440" height="224" key="GridCell.Tab.0.left/0.25.1440.814@0.25.1440.814" timestamp="1608992367974" />
+    <state width="1440" height="224" key="GridCell.Tab.0.right" timestamp="1608992367976">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
-    <state width="1440" height="224" key="GridCell.Tab.0.right/0.25.1440.814@0.25.1440.814" timestamp="1608796943508" />
+    <state width="1440" height="224" key="GridCell.Tab.0.right/0.25.1440.814@0.25.1440.814" timestamp="1608992367976" />
     <state x="229" y="68" key="SettingsEditor" timestamp="1608626325661">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
@@ -132,9 +158,13 @@
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.25.1440.814@0.25.1440.814" timestamp="1608794655080" />
-    <state x="385" y="163" width="670" height="676" key="search.everywhere.popup" timestamp="1608794617710">
+    <state x="320" y="156" key="Vcs.Push.Dialog.v2" timestamp="1608797298559">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
-    <state x="385" y="163" width="670" height="676" key="search.everywhere.popup/0.25.1440.814@0.25.1440.814" timestamp="1608794617710" />
+    <state x="320" y="156" key="Vcs.Push.Dialog.v2/0.25.1440.814@0.25.1440.814" timestamp="1608797298559" />
+    <state x="385" y="163" width="670" height="676" key="search.everywhere.popup" timestamp="1608992367920">
+      <screen x="0" y="25" width="1440" height="814" />
+    </state>
+    <state x="385" y="163" width="670" height="676" key="search.everywhere.popup/0.25.1440.814@0.25.1440.814" timestamp="1608992367920" />
   </component>
 </project>
