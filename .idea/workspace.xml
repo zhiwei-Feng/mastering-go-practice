@@ -14,10 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4065a6bd-feae-4d31-88ae-46b4ebfbc080" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter4/changeDT.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter4/logEntries.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter4/auth.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter4/findIPv4.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter4/selectCol.go" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter4/selectCol.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +52,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="go.sdk" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -126,7 +125,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TimesAndDates preliminary completed" />
     <MESSAGE value="Chapter4: A simple example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter4: A simple example" />
+    <MESSAGE value="A more advanced example" />
+    <option name="LAST_COMMIT_MESSAGE" value="A more advanced example" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -152,21 +152,21 @@
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state width="1440" height="224" key="GridCell.Tab.0.right/0.25.1440.814@0.25.1440.814" timestamp="1608995109852" />
-    <state x="229" y="68" key="SettingsEditor" timestamp="1608626325661">
+    <state x="229" y="68" key="SettingsEditor" timestamp="1609055137461">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
-    <state x="229" y="68" key="SettingsEditor/0.25.1440.814@0.25.1440.814" timestamp="1608626325661" />
+    <state x="229" y="68" key="SettingsEditor/0.25.1440.814@0.25.1440.814" timestamp="1609055137461" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1608794655080">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.25.1440.814@0.25.1440.814" timestamp="1608794655080" />
-    <state x="320" y="156" key="Vcs.Push.Dialog.v2" timestamp="1608995089094">
+    <state x="320" y="156" key="Vcs.Push.Dialog.v2" timestamp="1609055002278">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
-    <state x="320" y="156" key="Vcs.Push.Dialog.v2/0.25.1440.814@0.25.1440.814" timestamp="1608995089094" />
-    <state x="385" y="163" width="670" height="676" key="search.everywhere.popup" timestamp="1608995039691">
+    <state x="320" y="156" key="Vcs.Push.Dialog.v2/0.25.1440.814@0.25.1440.814" timestamp="1609055002278" />
+    <state x="385" y="163" width="670" height="676" key="search.everywhere.popup" timestamp="1609058788495">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
-    <state x="385" y="163" width="670" height="676" key="search.everywhere.popup/0.25.1440.814@0.25.1440.814" timestamp="1608995039691" />
+    <state x="385" y="163" width="670" height="676" key="search.everywhere.popup/0.25.1440.814@0.25.1440.814" timestamp="1609058788495" />
   </component>
 </project>
