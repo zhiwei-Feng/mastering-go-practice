@@ -29,27 +29,29 @@ func main() {
 	}
 
 	for _, filename := range args[2:] {
-		fmt.Println("\t\t", filename)
-		f, err := os.Open(filename)
-		if err != nil {
-			fmt.Printf("error opening file %s\n", err)
-			continue
-		}
-		defer f.Close()
-		r := bufio.NewReader(f)
-		for {
-			// 这种方法会出现一个问题，即无法处理 不是以换行符结尾的最后一行字符串
-			// 见https://stackoverflow.com/questions/8757389/reading-a-file-line-by-line-in-go
-			line, err := r.ReadString('\n')
-			if err == io.EOF {
-				break
-			} else if err != nil {
-				fmt.Printf("error reading file %s", err)
+		func() {
+			fmt.Println("\t\t", filename)
+			f, err := os.Open(filename)
+			if err != nil {
+				fmt.Printf("error opening file %s\n", err)
+				return
 			}
-			data := strings.Fields(line)
-			if len(data) >= column {
-				fmt.Println(data[column-1])
+			defer f.Close()
+			r := bufio.NewReader(f)
+			for {
+				// 这种方法会出现一个问题，即无法处理 不是以换行符结尾的最后一行字符串
+				// 见https://stackoverflow.com/questions/8757389/reading-a-file-line-by-line-in-go
+				line, err := r.ReadString('\n')
+				if err == io.EOF {
+					break
+				} else if err != nil {
+					fmt.Printf("error reading file %s", err)
+				}
+				data := strings.Fields(line)
+				if len(data) >= column {
+					fmt.Println(data[column-1])
+				}
 			}
-		}
+		}()
 	}
 }
