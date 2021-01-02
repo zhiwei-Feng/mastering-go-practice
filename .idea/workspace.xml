@@ -13,11 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4065a6bd-feae-4d31-88ae-46b4ebfbc080" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter4/auth.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter4/findIPv4.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4065a6bd-feae-4d31-88ae-46b4ebfbc080" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +122,8 @@
     <MESSAGE value="TimesAndDates preliminary completed" />
     <MESSAGE value="Chapter4: A simple example" />
     <MESSAGE value="A more advanced example" />
-    <option name="LAST_COMMIT_MESSAGE" value="A more advanced example" />
+    <MESSAGE value="Matching IPv4 addresses" />
+    <option name="LAST_COMMIT_MESSAGE" value="Matching IPv4 addresses" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -160,10 +157,10 @@
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.25.1440.814@0.25.1440.814" timestamp="1608794655080" />
-    <state x="320" y="156" key="Vcs.Push.Dialog.v2" timestamp="1609055002278">
+    <state x="320" y="156" key="Vcs.Push.Dialog.v2" timestamp="1609059011854">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
-    <state x="320" y="156" key="Vcs.Push.Dialog.v2/0.25.1440.814@0.25.1440.814" timestamp="1609055002278" />
+    <state x="320" y="156" key="Vcs.Push.Dialog.v2/0.25.1440.814@0.25.1440.814" timestamp="1609059011854" />
     <state x="385" y="163" width="670" height="676" key="search.everywhere.popup" timestamp="1609058788495">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
