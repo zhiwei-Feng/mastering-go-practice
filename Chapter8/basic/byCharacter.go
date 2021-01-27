@@ -6,10 +6,9 @@ import (
 	"fmt"
 	"io"
 	"os"
-	"regexp"
 )
 
-func wordByWord(file string) error {
+func charByChar(file string) error {
 	var err error
 	f, err := os.Open(file)
 	if err != nil {
@@ -26,10 +25,8 @@ func wordByWord(file string) error {
 			fmt.Printf("error reading file %s", err)
 			return err
 		}
-		re := regexp.MustCompile("[^\\s]+")
-		words := re.FindAllString(line, -1)
-		for i := 0; i < len(words); i++ {
-			fmt.Println(words[i])
+		for _, x := range line {
+			fmt.Println(string(x))
 		}
 	}
 	return nil
@@ -38,12 +35,11 @@ func wordByWord(file string) error {
 func main() {
 	flag.Parse()
 	if len(flag.Args()) == 0 {
-		fmt.Printf("usage: byWord <file1> [<file2> ...]\n")
+		fmt.Printf("usage: byChar <file1> [<file2> ...]\n")
 		return
 	}
-
 	for _, file := range flag.Args() {
-		err := wordByWord(file)
+		err := charByChar(file)
 		if err != nil {
 			fmt.Println(err)
 		}
