@@ -3,4 +3,4 @@ package exercises
 /*
 Write your own version of parseDate.go.
 */
-// todo Chapter3 ex6
+// todo Chapter03 ex6
