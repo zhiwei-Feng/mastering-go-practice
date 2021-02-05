@@ -7,14 +7,14 @@ import (
 /*
 goos: linux
 goarch: amd64
-Benchmark30fibo1-12          232           5395946 ns/op
-Benchmark30fibo2-12          213           5398885 ns/op
-Benchmark30fibo3-12       327279              3547 ns/op
-Benchmark50fibo1-12            1        82874845600 ns/op
-Benchmark50fibo2-12            1        80692751500 ns/op
-Benchmark50fibo3-12       236806              4999 ns/op
+Benchmark30fibo1-12          212           5358539 ns/op               0 B/op          0 allocs/op
+Benchmark30fibo2-12          229           5344920 ns/op               0 B/op          0 allocs/op
+Benchmark30fibo3-12       356478              3461 ns/op            2236 B/op          6 allocs/op
+Benchmark50fibo1-12            1        81971515000 ns/op              0 B/op          0 allocs/op
+Benchmark50fibo2-12            1        77388359500 ns/op              0 B/op          0 allocs/op
+Benchmark50fibo3-12       235618              5053 ns/op            2481 B/op         10 allocs/op
 PASS
-ok      command-line-arguments  169.505s
+ok      command-line-arguments  165.342s
 */
 
 var result int
